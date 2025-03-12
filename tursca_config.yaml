@@ -1,0 +1,26 @@
+# scatter mode, 1=single-scattering, 2=multiple scattering
+scatter_mode: 2
+
+# polarization mode, 1=scalar, 4=full stokes
+polariz_mode: 1
+
+# coupling coefficient
+coupling_coeff: 0.001
+
+#filename of the aerosol phase matrix definition file
+particle_muller_filename: 'soot_SCO2.dat'
+
+# minimum step during path trace
+minimum_step: 0.5
+
+# max amount of scatter nodes on a single line-of-sight
+max_path_len: 150
+
+# max total scattering couplings between nodes in the whole scene
+max_scatter_couplings: 10000
+
+# amount of Fibonacci lattice points for phase function integration.
+n_fibo_dirs: 100
+
+# integral step amount for node-source path integration
+source_basis_integral_steps: 20
