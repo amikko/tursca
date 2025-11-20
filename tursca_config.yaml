@@ -8,7 +8,7 @@ polariz_mode: 1
 coupling_coeff: 0.001
 
 #filename of the aerosol phase matrix definition file
-particle_muller_filename: 'soot_SCO2.dat'
+particle_muller_filename: 'input_files/aerosols/soot_SCO2.dat'
 
 # minimum step during path trace
 minimum_step: 0.5
